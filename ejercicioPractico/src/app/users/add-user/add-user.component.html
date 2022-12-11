@@ -1,0 +1,9 @@
+<form  (ngSubmit)="addNewUser()">
+    <label for="name"><strong>Nombre: </strong></label>
+    <input name= "name" id="name" type="text" [(ngModel)]="newUser.name"><br>
+    <label for="email"><strong>Email: </strong></label>
+    <input type="email" name="email" id="email" [(ngModel)]="newUser.email"><br>
+
+    <button type="submit">Enviar</button>
+
+</form>
